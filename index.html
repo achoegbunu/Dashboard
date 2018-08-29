@@ -13,6 +13,31 @@
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
+		<div class="user">
+			<img id="userImg" src="" alt="">
+			<h1 id="username"></h1>
+			<h4 id="userNumber"></h4>
+		</div>
+		<div class="stats">
+		<div id="time"></div>
+			<h2>My Progress:</h2>
+			<div id="progress">
+				<h1 id="progress percent"></h1>
+			</div>
+			<div id="progress-inner"></div>
+			<button type="button" class="btn-lg btn-primary">RESUME</button>
+		</div>
+		<div class="active">
+			<h2 id="active-title">My Courses:</h2>
+			<ul id="active-list"></ul>
+		</div>
+		<div class="footer"> 
+			<ul>
+				<li><a href="#" onclick="showCourses()">COURSES</a></li>
+				<li><a href="#" onclick="showActivity()">ACTIVITY</a></li>
+				<li><a href="#" onclick="showAccount()">ACCOUNT</a></li>
+			</ul>
+		</div>
 
 		<!-- jquery library -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
