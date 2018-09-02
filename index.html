@@ -13,8 +13,9 @@
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
+		<main>
 		<div class="user">
-			<img id="userImg" src="" alt="">
+			<img id="userImg" src="img/Acho.JPG" alt="">
 			<h1 id="username"></h1>
 			<h4 id="userNumber"></h4>
 		</div>
@@ -22,13 +23,13 @@
 		<div id="time"></div>
 			<h2>My Progress:</h2>
 			<div id="progress">
-				<h1 id="progress percent"></h1>
+				<h1 id="progress-percent"></h1>
 			</div>
 			<div id="progress-inner"></div>
-			<button type="button" class="btn-lg btn-primary">RESUME</button>
+			<button>RESUME</button>
 		</div>
 		<div class="active">
-			<h2 id="active-title">My Courses:</h2>
+			<h2 id="active-title"></h2>
 			<ul id="active-list"></ul>
 		</div>
 		<div class="footer"> 
@@ -38,6 +39,14 @@
 				<li><a href="#" onclick="showAccount()">ACCOUNT</a></li>
 			</ul>
 		</div>
+		</main>
+		<nav>
+        <ul>
+            <li><i class="fas fa-bars" onclick="expandMenu()"></i></li>
+            <li><i class="fas fa-home"></i><span>Home</span></li>
+            <li><i class="fas fa-sign-out-alt"></i><span>Log Out</span></li>
+        </ul>
+    </nav>
 
 		<!-- jquery library -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
